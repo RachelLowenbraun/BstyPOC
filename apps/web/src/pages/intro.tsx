@@ -21,7 +21,7 @@ const Intro = () => {
   }, [navigate, status]);
 
   return (
-    <div className="container grid grid-rows-[1fr_200px] h-full gap-4 items-center py-8">
+    <div className="container grid grid-rows-[1fr_200px] max-w-3xl h-full gap-4 items-center py-8">
       <header className="flex flex-col items-center">
         <div className="text-transparent relative">
           <LogoClean

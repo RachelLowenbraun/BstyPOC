@@ -41,7 +41,7 @@ const Home = () => {
   };
 
   return (
-    <div className="container grid min-h-screen gap-4 py-8">
+    <div className="container grid min-h-screen max-w-3xl gap-4 py-8">
       <header className="flex flex-col items-center">
         <div className="text-transparent relative  h-72">
           <LogoClean
