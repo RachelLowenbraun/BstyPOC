@@ -50,11 +50,11 @@ const Intro = () => {
             </h1>
             <ul className="font-light space-y-1">
               <li>
-                ✔ Get insights that will help you understand yourself better.
+                ✔ Get insights that will help you understand yourself better.{' '}
               </li>
               <li>
                 ✔ Use tools to improve your communication and boost your
-                self-confidence. Ready to get started?
+                self-confidence.
               </li>
             </ul>
             <br />
