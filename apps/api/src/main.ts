@@ -16,7 +16,7 @@ app.use(
 
 app.use('/api/voice-memo', voiceMemoRouter);
 
-app.use((err: Error, _req: Request, res: Response, _next: NextFunction) => {
+app.use((err: Error, _req: Request, res: Response) => {
   console.error(err.message);
   res.status(500).json({ error: 'Internal server error' });
 });
