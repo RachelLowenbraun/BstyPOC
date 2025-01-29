@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    :root {
+        @apply w-full min-h-screen md:bg-[url(/bgs/bg-desktop.svg)] max-md:bg-[url(/bgs/bg-mobile.svg)] bg-cover bg-right-top bg-no-repeat;
+    }
+}
